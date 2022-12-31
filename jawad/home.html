@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Land Maroc</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="icon/12.png" sizes="32x32" />
+    <link rel="icon" href="icon/12.png" sizes="192x192" />
+</head>
+<body>
+            <div class="promo">
+                <h1> HAMZA ABAAKIL  80%</h1>
+            </div>
+<!-- header section starts --->
+<header class="header">
+    <a href="home.html" class="logo">
+        <div id="logo-header">
+            <img id="logo-img" src="image/1.png" alt="">
+        </div>
+        </a>
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+</header>
+<!-- header section ends  -->
+<!-- closer btn  -->
+<div id="closer" class="fas fa-times"></div>
+<!-- navbar  -->
+<nav class="navbar">
+    <a href="home.html">home</a>
+    <a href="shop.html">shop</a>
+    <a href="about.html">about</a>
+    <a href="team.html">team</a>
+    <a href="blog.html">blog</a>
+    <a href="contact.html">contact</a>
+</nav>
+<!-- shopping cart  -->
+<!-- shopping cart end -->
+<!-- login form  -->
+<div class="login-form">
+    <form action="">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create now</a></p>
+    </form>
+</div>
+<!-- home section starts  -->
+<section class="home">
+    <div class="slides-container">
+        <div class="slide active">
+            <div class="content">
+                <span>Produits Food Land, Argan Oil</span>
+                <h3>Argan Oil</h3>
+                <p>Food Land Argan Oil is a first pressure oil from argan almond trees produced by women from the Souss region. Its smell is strong, rich in Vitamins E and Omega. It accompanies all meals. At breakfast with honey or as a seasoning in salads or couscous. Argan oil helps reduce cholesterol and high blood pressure problems. These virtues are given for information only, they will never replace a medical consultation.</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="image">
+                <img src="image/11.png" alt="">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <span>Produits Food Land, Amlou</span>
+                <h3>Amlou Naturel</h3>
+                <p>préparation culinaire Amazigh de la région du Souss- Massa que les Chleuhs ont l’habitude de consommer. Elle se compose d’huile.</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="image">
+                <img src="image/10.png" alt="">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <span>Produits Food Land, Honey</span>
+                <h3>Honey Naturel</h3>
+                <p>INDIGENOUS HONEY Raw Organic Honey NMR Tested NPOP Organic Certified Pure Natural Unprocessed Original Honey - 530 g Glass Jar (Pack of 1).</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="image">
+                <img src="image/0.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
+</section>
+<!-- home section end -->
+<!-- banner section starts  -->
+<section class="banner-container">
+    <div class="banner">
+        <img src="image/4.png" alt=" ">
+        <div class="content">
+            <b>limited offer</b>
+            <h2>upto 50% off</h2>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="image/2.png" alt="">
+        <div class="content">
+            <b>limited offer</b>
+            <h2>upto 50% off</h2>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="image/8.png" alt="">
+        <div class="content">
+            <b>limited offer</b>
+            <h2>upto 50% off</h2>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="image/7.png" alt="">
+        <div class="content">
+            <b>limited offer</b>
+            <h2>upto 50% off</h2>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="image/3.png" alt="">
+        <div class="content">
+            <b>limited offer</b>
+            <h2>upto 50% off</h2>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="image/10.png" alt="">
+        <div class="content">
+            <b>limited offer</b>
+            <h2>upto 50% off</h2>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+</section>
+<!-- banner section ends -->
+<!-- footer section  -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="team.html"> <i class="fas fa-arrow-right"></i> team</a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> terms of user</a>
+        </div>
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook</a>
+            <a href="#"> <i class="fab fa-whatsapp"></i> whatsapp</a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram</a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter</a>
+        </div>
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+    </div>
+</section>
+<section class="credit">
+    created by mr. Hamza Abaakil | all rights reserved!
+</section>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
